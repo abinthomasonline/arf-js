@@ -1,0 +1,16 @@
+node_modules/
+dist/
+coverage/
+*.log
+.DS_Store
+
+# local docs/planning
+SCOPE.md
+
+# generated example outputs
+examples/output/*
+!examples/output/.gitkeep
+
+# python cache if present
+__pycache__/
+*.pyc
